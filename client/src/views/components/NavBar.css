@@ -1,0 +1,10 @@
+@media screen and (max-width: 940px) {
+  .img-banner {
+    position: absolute;
+    top: -100px;
+  }
+}
+
+.navbar {
+  position: sticky;
+}

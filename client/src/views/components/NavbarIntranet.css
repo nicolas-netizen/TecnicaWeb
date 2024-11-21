@@ -1,0 +1,25 @@
+.nav-conteiner {
+  background-color: #343a40;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.7rem 1rem;
+}
+a {
+  margin-right: 1vw;
+}
+
+.a-home {
+  color: white;
+  font-size: larger;
+}
+.a-item {
+  color: rgba(255, 255, 255, 0.5);
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: small;
+}
+
+.a-item:hover {
+  color: white;
+}

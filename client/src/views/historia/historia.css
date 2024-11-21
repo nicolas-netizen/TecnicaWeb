@@ -1,0 +1,132 @@
+.main {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.PrimerTexto {
+  text-align: justify;
+  width: 55%;
+  margin: 40px 0px;
+  color: #000000;
+}
+
+.SegundaParte {
+  background-color: #2e2e2e;
+  width: 100%;
+  color: #fff;
+}
+
+.TerceraParte {
+  text-align: justify;
+  width: 55%;
+  margin: 40px 0px;
+  color: #000000;
+}
+
+.Final {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 25px;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.HistoriaCuadros {
+  text-align: center;
+  width: 20%;
+}
+
+.HistoriaCuadros p {
+  text-align: center;
+}
+
+.titulo {
+  font-size: 30px;
+  text-align: left;
+  font-weight: 700;
+}
+.titulo-2 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 2vh;
+  font-weight: bold;
+}
+.subTitulos {
+  color: #0085ff;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.subrayado {
+  border-top: 5px solid #2b8afa;
+  width: 80px;
+  margin: 0px 0px 10px 0px;
+}
+
+.containerCuadros {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 3vh;
+}
+.SegundoFinal ul li {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 16px;
+}
+
+@media (min-width: 1050px) {
+  .Final img {
+    width: 60%;
+  }
+  .SegundoFinal {
+    width: 35%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .containerCuadros {
+    flex-direction: column;
+    align-items: center;
+  }
+  .HistoriaCuadros {
+    width: 65vw;
+    border-bottom: 4px solid #33373c;
+    padding-bottom: 1rem;
+  }
+  .HistoriaCuadros:last-child {
+    border: none;
+  }
+  .Final {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Final img {
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+
+  .SegundoFinal {
+    margin-left: none;
+  }
+  .PrimerTexto {
+    width: 90%;
+  }
+  .TerceraParte {
+    width: 90%;
+  }
+}
+.li-pequeño{
+  position: relative;
+  left:120px;
+}

@@ -1,0 +1,29 @@
+.imput-text {
+  width: 25vw;
+  height: 6vh;
+  border-radius: 5px;
+  border: solid 1px black;
+}
+
+.btn-subir {
+  background-color: #28a745;
+  border-radius: 4px;
+  width: 6vw;
+  height: 3vw;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 2vh;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+}
+.cuerpocreacion {
+  margin-left: 35vw;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}

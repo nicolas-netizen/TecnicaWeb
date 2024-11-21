@@ -1,0 +1,233 @@
+#main {
+  width: 100vw;
+  height: 91vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+#banner {
+  width: 100vw;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.subrayado {
+  border-top: 3px solid #2b8afa;
+  width: 80px;
+  margin: 0px 0px 10px 0px;
+}
+
+#descripcion-especialidades {
+  width: 55%;
+  margin: 40px 0px;
+}
+
+.tarjeta {
+  width: 100%;
+  height: 70vh;
+  border-radius: 35px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.tarjeta-visual {
+  width: 40%;
+  height: 100%;
+  border-radius: 35px 0px 0px 35px;
+  background-color: #fdc455;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.tarjeta div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tarjeta-visual div h2 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.tarjeta-visual div p {
+  color: #fff;
+  width: 80%;
+  text-align: center;
+}
+
+.tarjeta-visual img {
+  height: 200px;
+  width: 200px;
+}
+
+.tarjeta-descripcion {
+  width: 60%;
+  height: 100%;
+  border-radius: 0px 35px 35px 0px;
+  background-color: #e8e7e7;
+  display: flex;
+  justify-content: center;
+}
+
+.tarjeta-descripcion div {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tarjeta-descripcion div p {
+  text-align: center;
+}
+
+.tarjeta-descripcion div hr {
+  border-top: 2px solid #d3d3d3;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.tarjeta-descripcion div button {
+  background-color: #fdc455;
+  border-radius: 50px;
+  color: #fff;
+  padding: 10px;
+}
+
+.tarjeta-visual.electricista {
+  background-color: #fdc455;
+}
+
+.tarjeta-descripcion.electricista div button {
+  background-color: #fdc455;
+}
+
+.tarjeta-descripcion.electricista div button:hover {
+  background-color: #d4a547;
+}
+
+.tarjeta-visual.electronica {
+  background-color: #ff8c5a;
+  border-radius: 0px 35px 35px 0px;
+}
+
+.tarjeta-descripcion.electronica div button {
+  background-color: #ff8c5a;
+}
+
+.tarjeta-descripcion.electronica div button:hover {
+  background-color: #da774c;
+}
+
+.tarjeta-visual.electromecanica {
+  background-color: #d22d2d;
+}
+
+.tarjeta-descripcion.electromecanica div button {
+  background-color: #d22d2d;
+}
+
+.tarjeta-descripcion.electromecanica div button:hover {
+  background-color: #aa2424;
+}
+
+.tarjeta-visual.profesionalizante{
+  background-color:#3362FF;
+  border-radius: 0px 35px 35px 0px;
+}
+.tarjeta-descripcion.profesionalizante{
+  border-radius: 35px 0px 0px 35px;
+}
+.tarjeta-descripcion.electronica {
+  border-radius: 35px 0px 0px 35px;
+}
+
+
+@media (min-width: 1300px) {
+  #container-tarjetas {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #container-tarjetas {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1000px) {
+  #container-tarjetas {
+    width: 95%;
+  }
+}
+
+@media (max-width: 900px) {
+  #main {
+    height: auto;
+  }
+  #container-tarjetas {
+    width: 95%;
+    height: auto;
+  }
+  #descripcion {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .tarjeta {
+    flex-direction: column;
+    margin-bottom: 30px;
+    height: auto;
+  }
+  .tarjeta-visual {
+    width: 100%;
+    border-radius: 35px 35px 0px 0px;
+  }
+  .tarjeta-visual div img {
+    height: 50px;
+    width: 50px;
+    display: inline;
+  }
+  .tarjeta-visual div div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tarjeta-visual div div h2 {
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 8px;
+  }
+  .tarjeta-visual div p {
+    font-size: 16px;
+  }
+  .tarjeta-descripcion {
+    width: 100%;
+    border-radius: 0px 0px 35px 35px;
+    height: auto;
+    padding: 20px 0px;
+  }
+  .tarjeta-visual.electronica {
+    background-color: #ff8c5a;
+    border-radius: 35px 35px 0px 0px;
+  }
+  .tarjeta-descripcion.electronica {
+    border-radius: 0px 0px 35px 35px;
+  }
+}

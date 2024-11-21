@@ -1,0 +1,52 @@
+.ParteTexto {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  margin-left: 20vw;
+  margin: 40px 0px;
+  text-align: left;
+}
+
+.subrayado {
+  border-top: 5px solid #2b8afa;
+  width: 80px;
+  margin: 0px 0px 10px 0px;
+}
+.CuadrosEventos {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  align-items: center;
+  min-width: 800px;
+}
+.Titulo {
+  font-size: 35px;
+  text-align: left;
+  font-weight: 700px;
+}
+.ParteTexto p {
+  font-size: 20px;
+}
+#descripcion-eventos {
+  width: 60%;
+  margin: 40px 0px;
+}
+
+#main {
+  width: 100vw;
+  height: 91vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+@media (max-width: 800px) {
+  #descripcion {
+    width: 90%;
+  }
+  .CuadrosEventos {
+    min-width: auto;
+  }
+}

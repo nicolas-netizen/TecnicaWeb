@@ -1,0 +1,63 @@
+.main {
+  overflow-x: hidden;
+  text-align: left;
+}
+
+.subrayado {
+  border-top: 5px solid #2b8afa;
+  width: 80px;
+  margin: 0px 0px 10px 0px;
+}
+
+.PrimerParte {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  margin-top: 40px;
+}
+
+.Rueda {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 65vw;
+  height: 70vh;
+}
+
+.CuadrosCooperadora {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  align-items: center;
+  height: auto;
+}
+
+.UltimaParte {
+  width: 100%;
+}
+
+.Informacion {
+  height: auto;
+}
+
+@media (max-width: 1070px) {
+  #tituloTarjeta {
+    margin-top: -15px;
+  }
+
+  .CuadrosCooperadora {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1070px) {
+  .CuadrosCooperadora {
+    width: 100%;
+  }
+  .PrimerParte {
+    width: 90%;
+  }
+  .TerceraParte {
+    width: 90%;
+  }
+}

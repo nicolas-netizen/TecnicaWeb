@@ -1,0 +1,24 @@
+
+.conteiner-input{
+margin-top: 2vh;
+}
+
+.input-info{
+    width: 25vw;
+    height: 6vh;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.textarea-grafico{
+    width: 25vw;
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
+
+.combobox-tarjeta{
+    width: 25vw;
+    height: 6vh;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
